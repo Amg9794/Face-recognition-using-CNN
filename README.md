@@ -1,6 +1,5 @@
 # Writeup for HW2P2
 
-Author: Zongyue Zhao (zongyuez@andrew.cmu.edu)
 
 # Classification:
 
