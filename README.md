@@ -28,8 +28,7 @@ default in my script.
 
 ## Architecture
 The best performance is achieved from a variant of Resnet34. I used 3x3 kernel and stride = 1 in the first conv layer,
-in order to adapt to the 64x64 image. Before I did this, I tried various efforts in this task (some of them can be found
-in the `deprecated` folder), including using the same EfficientNetB4 (resized to 380x380); pair-wise metric loss;
+in order to adapt to the 64x64 image. Before I did this, I tried various efforts in this task, including using the same EfficientNetB4 (resized to 380x380); pair-wise metric loss;
 triplet loss; b-way loss; etc. None of them worked as good as the 3x3 kernel-ed ResNet 34.
 
 ## Loss Function and Optimizer:
